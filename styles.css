@@ -1,0 +1,130 @@
+/**
+Palette: https://scrimba.com/links/hometown-palette
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557
+
+*/
+
+/* CSS HEX */
+
+:root {
+    --lion: #D7CCB2;
+    --rich-black: #0b1219;
+    --charcoal: #2b3b4b;
+    --eerie-black: #251e16;
+    --prussian-blue: #1a2939;
+}
+
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-align: center;
+    font-family: 'Belanosima', sans-serif;
+    font-size: 1.1rem;
+}
+
+.activity-img {
+    width: 150px;
+    height: 150px;
+    border-radius: 5px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+#charminar-img {
+    background-image: url("images/charminar.jpg");
+
+}
+
+#hussainsagar-img {
+    background-image: url("images/hussainsagar.jpg");
+
+}
+
+#hitechcity-img {
+    background-image: url("images/hitechcity.png");
+}
+
+.hero {
+    background-image: url("images/hyderabad.jpg");
+    height: 500px;
+    background-position-x: center;
+    background-size: cover;
+}
+
+
+.activities {
+    display: flex;
+    flex-direction: column;
+    height: 600px;
+    justify-content: center;
+    background-color: var(--rich-black);
+    color: var(--lion);
+
+}
+
+#activities-suggestions {
+    font-size: 2.25rem;
+}
+
+.activities-list {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.activity {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    background-color: var(--eerie-black);
+    padding: 1rem;
+    box-shadow: 0 0 3px #443d3d;
+    border-radius: 10px;
+}
+
+
+.guide-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 3rem;
+    background-color: var(--prussian-blue);
+    color: var(--lion)
+}
+
+.guide-details {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--rich-black);
+    padding: 1rem 2rem 2rem 2rem;
+}
+
+#guide-img {
+    width: 200px;
+    height: 200px;
+    background-image: url("images/pavan.jpg");
+    background-size: cover;
+    border-radius: 100%;
+}
+
+.guide-title {
+
+    font-size: 2rem;
+}
+
+.guide-name {
+    font-size: 1.5rem;
+}
+
+.guide-desc {
+    width: 300px;
+}
