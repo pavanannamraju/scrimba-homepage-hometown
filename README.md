@@ -1,13 +1,8 @@
-# cob2e4812840974342ebb42eb
+The code is built for the first solo project for webdev basics module from scrimba
 
-Quick start:
+Code deployed in Netlify:
+https://regal-lily-aee6cd.netlify.app/
 
-```
-$ npm install
-$ npm start
-````
-
-Head over to https://vitejs.dev/ to learn more about using vite
 ## About Scrimba
 
 At Scrimba our goal is to create the best possible coding school at the cost of a gym membership! 💜
